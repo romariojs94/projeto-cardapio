@@ -1943,6 +1943,11 @@ video {
   background-color: rgb(0 0 0 / 0.6);
 }
 
+.bg-green-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(34 197 94 / var(--tw-bg-opacity));
+}
+
 .bg-red-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(239 68 68 / var(--tw-bg-opacity));
@@ -1958,13 +1963,8 @@ video {
   background-color: rgb(24 24 27 / var(--tw-bg-opacity));
 }
 
-.bg-green-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(34 197 94 / var(--tw-bg-opacity));
-}
-
 .bg-home {
-  background-image: url('/assets/bg.png');
+  background-image: url('./assets/bg.png');
 }
 
 .decoration-slice {
